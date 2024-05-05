@@ -1,0 +1,1217 @@
+mei 05 16:12:06 my-system-name nix-daemon[2013]: accepted connection from pid 297368, user my-user (trusted)
+mei 05 16:12:06 my-system-name nix-daemon[2013]: accepted connection from pid 297367, user my-user (trusted)
+mei 05 16:12:47 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 64, need 152 (0 suppressed)
+mei 05 16:13:28 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:13:40 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:13:58 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:14:04 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:14:14 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:14:41 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:14:50 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:13:19 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (165 suppressed)
+mei 05 16:14:59 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:13:43 my-system-name assert_20240505161243_112.dmp[299160]: Uploading dump (out-of-process)
+                                                             /tmp/dumps/assert_20240505161243_112.dmp
+mei 05 16:15:04 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:15:07 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:15:17 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:14:02 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (101 suppressed)
+mei 05 16:14:43 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (55 suppressed)
+mei 05 16:23:36 my-system-name systemd-journald[613]: Under memory pressure, flushing caches.
+mei 05 16:32:10 my-system-name kernel: INFO: task .Discord-wrappe:4064 blocked for more than 122 seconds.
+mei 05 16:33:37 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:37 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:37 my-system-name kernel: task:.Discord-wrappe state:D stack:0     pid:4064  ppid:2061   flags:0x00004002
+mei 05 16:33:37 my-system-name kernel: Call Trace:
+mei 05 16:33:37 my-system-name kernel:  <TASK>
+mei 05 16:33:37 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:37 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:37 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:37 my-system-name kernel:  ? do_fault+0x2a3/0x460
+mei 05 16:33:37 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:37 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:37 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:37 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:37 my-system-name kernel:  irqentry_exit_to_user_mode+0x9/0x30
+mei 05 16:33:37 my-system-name kernel:  asm_exc_page_fault+0x26/0x30
+mei 05 16:33:37 my-system-name kernel: RIP: 0033:0x55e791167fb3
+mei 05 16:33:37 my-system-name kernel: RSP: 002b:00007fffc252b040 EFLAGS: 00010293
+mei 05 16:33:37 my-system-name kernel: RAX: 0000000000000005 RBX: 00000b2000368000 RCX: 000000000020583d
+mei 05 16:33:37 my-system-name kernel: RDX: 00001b4f02697a39 RSI: 0000000000000000 RDI: 00007fffc252b1a0
+mei 05 16:33:37 my-system-name kernel: RBP: 00007fffc252b180 R08: ffffffff00000000 R09: 0000001000000000
+mei 05 16:33:37 my-system-name kernel: R10: 00007fffc252b1a0 R11: 00001b4f02697a39 R12: 000055e78ed0bcb8
+mei 05 16:33:37 my-system-name kernel: R13: 00007fffc252b1a0 R14: 0000000000000000 R15: 00007fffc252b080
+mei 05 16:33:37 my-system-name kernel:  </TASK>
+mei 05 16:33:37 my-system-name kernel: INFO: task ThreadPoolServi:4142 blocked for more than 122 seconds.
+mei 05 16:33:37 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:37 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:37 my-system-name kernel: task:ThreadPoolServi state:D stack:0     pid:4142  ppid:2061   flags:0x00004002
+mei 05 16:33:37 my-system-name kernel: Call Trace:
+mei 05 16:33:37 my-system-name kernel:  <TASK>
+mei 05 16:33:37 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:37 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:37 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:37 my-system-name kernel:  ? do_fault+0x2a3/0x460
+mei 05 16:33:37 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:37 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:37 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:37 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:37 my-system-name kernel:  irqentry_exit_to_user_mode+0x9/0x30
+mei 05 16:33:37 my-system-name kernel:  asm_exc_page_fault+0x26/0x30
+mei 05 16:33:37 my-system-name kernel: RIP: 0033:0x55e792fa99ec
+mei 05 16:33:37 my-system-name kernel: RSP: 002b:00007f99e8ffe480 EFLAGS: 00010202
+mei 05 16:33:37 my-system-name kernel: RAX: 00000b2000289760 RBX: 00000b200030c000 RCX: 0000000000000000
+mei 05 16:33:37 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000002 RDI: 00000b200030c000
+mei 05 16:33:37 my-system-name kernel: RBP: 00007f99e8ffe510 R08: 0000000000001f40 R09: 0000000200000000
+mei 05 16:33:37 my-system-name kernel: R10: 00007f99e8ffe1a0 R11: 00007fffc256e080 R12: 00007f99e8ffe550
+mei 05 16:33:37 my-system-name kernel: R13: aaaaaaaaaaaaaaaa R14: 00000b20002f17c0 R15: 0000000000000000
+mei 05 16:33:37 my-system-name kernel:  </TASK>
+mei 05 16:33:37 my-system-name kernel: INFO: task Chrome_ChildIOT:4144 blocked for more than 122 seconds.
+mei 05 16:33:37 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:37 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:37 my-system-name kernel: task:Chrome_ChildIOT state:D stack:0     pid:4144  ppid:2061   flags:0x00004002
+mei 05 16:33:37 my-system-name kernel: Call Trace:
+mei 05 16:33:37 my-system-name kernel:  <TASK>
+mei 05 16:33:37 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:37 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:37 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:37 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:37 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:37 my-system-name kernel:  ? do_epoll_wait+0xde/0x7b0
+mei 05 16:33:37 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:37 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:37 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:37 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:37 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:37 my-system-name kernel: RIP: 0033:0x7f99f9132426
+mei 05 16:33:37 my-system-name kernel: RSP: 002b:00007f99e7ffc3f0 EFLAGS: 00000293 ORIG_RAX: 00000000000000e8
+mei 05 16:33:37 my-system-name kernel: RAX: fffffffffffffffc RBX: 00000b200028a080 RCX: 00007f99f9132426
+mei 05 16:33:37 my-system-name kernel: RDX: 0000000000000020 RSI: 00000b20002e5e00 RDI: 0000000000000019
+mei 05 16:33:37 my-system-name kernel: RBP: 00007f99e7ffc450 R08: 0000000000000000 R09: 0000000000000000
+mei 05 16:33:37 my-system-name kernel: R10: 00000000ffffffff R11: 0000000000000293 R12: 00000b200030c700
+mei 05 16:33:37 my-system-name kernel: R13: 0000000000000000 R14: 00000b20002e5e00 R15: 7fffffffffffffff
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task GpuMemoryThread:4149 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:38 my-system-name kernel: task:GpuMemoryThread state:D stack:0     pid:4149  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  ? __futex_unqueue+0x29/0x40
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99e6ffa270 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00007f99e6ffa4b0
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00007f99e6ffa460 R14: 0000000000000000 R15: 00007f99e6ffa4b0
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task Compositor:4160 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:38 my-system-name kernel: task:Compositor      state:D stack:0     pid:4160  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  ? __futex_unqueue+0x29/0x40
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99a65f9280 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00007f99a65f94c0
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00007f99a65f9470 R14: 0000000000000000 R15: 00007f99a65f94c0
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task ThreadPoolSingl:4161 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: task:ThreadPoolSingl state:D stack:0     pid:4161  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  ? __futex_unqueue+0x29/0x40
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99a5df8350 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00007f99a5df85a0
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00007f99a5df8550 R14: 0000000000000000 R15: 00007f99a5df85a0
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task CompositorTileW:4175 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:38 my-system-name kernel: task:CompositorTileW state:D stack:0     pid:4175  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99a55f75b0 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00000b20008fa218 R14: 0000000000000000 R15: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task CompositorTileW:4176 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:38 my-system-name kernel: task:CompositorTileW state:D stack:0     pid:4176  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  ? __futex_unqueue+0x29/0x40
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99a4df65b0 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00000b20008fa218 R14: 0000000000000000 R15: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task CompositorTileW:4177 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:38 my-system-name kernel: task:CompositorTileW state:D stack:0     pid:4177  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __mod_lruvec_page_state+0x99/0x130
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  ? __futex_unqueue+0x29/0x40
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99a45f55b0 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00000b20008fa218 R14: 0000000000000000 R15: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: INFO: task CompositorTileW:4179 blocked for more than 122 seconds.
+mei 05 16:33:38 my-system-name kernel:       Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+mei 05 16:33:38 my-system-name kernel: task:CompositorTileW state:D stack:0     pid:4179  ppid:2061   flags:0x00004002
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  __schedule+0x3ac/0x1320
+mei 05 16:33:38 my-system-name kernel:  ? __schedule+0x3b4/0x1320
+mei 05 16:33:38 my-system-name kernel:  schedule+0x5e/0xd0
+mei 05 16:33:38 my-system-name kernel:  do_exit+0x117/0xad0
+mei 05 16:33:38 my-system-name kernel:  ? __futex_unqueue+0x29/0x40
+mei 05 16:33:38 my-system-name kernel:  do_group_exit+0x31/0x80
+mei 05 16:33:38 my-system-name kernel:  get_signal+0x9fe/0xa30
+mei 05 16:33:38 my-system-name kernel:  arch_do_signal_or_restart+0x3e/0x270
+mei 05 16:33:38 my-system-name kernel:  exit_to_user_mode_prepare+0x1a4/0x200
+mei 05 16:33:38 my-system-name kernel:  syscall_exit_to_user_mode+0x1b/0x40
+mei 05 16:33:38 my-system-name kernel:  do_syscall_64+0x4b/0x90
+mei 05 16:33:38 my-system-name kernel:  entry_SYSCALL_64_after_hwframe+0x6e/0xd8
+mei 05 16:33:38 my-system-name kernel: RIP: 0033:0x7f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00007f99a3df45b0 EFLAGS: 00000246 ORIG_RAX: 00000000000000ca
+mei 05 16:33:38 my-system-name kernel: RAX: fffffffffffffe00 RBX: 0000000000000000 RCX: 00007f99f90abebe
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000189 RDI: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 00000b20008fa218 R14: 0000000000000000 R15: 00000b20008fa36c
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: Future hung task reports are suppressed, see sysctl kernel.hung_task_warnings
+mei 05 16:33:38 my-system-name kernel: CJobMgr::m_Work invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+mei 05 16:33:38 my-system-name kernel: CPU: 3 PID: 6876 Comm: CJobMgr::m_Work Tainted: P          IO       6.6.22 #1-NixOS
+mei 05 16:33:38 my-system-name kernel: Hardware name: ASUSTeK COMPUTER INC. System Product Name/WS C246 PRO, BIOS 1604 03/16/2021
+mei 05 16:33:38 my-system-name kernel: Call Trace:
+mei 05 16:33:38 my-system-name kernel:  <TASK>
+mei 05 16:33:38 my-system-name kernel:  dump_stack_lvl+0x47/0x60
+mei 05 16:33:38 my-system-name kernel:  dump_header+0x4a/0x240
+mei 05 16:33:38 my-system-name kernel:  oom_kill_process+0xf9/0x190
+mei 05 16:33:38 my-system-name kernel:  out_of_memory+0x247/0x590
+mei 05 16:33:38 my-system-name kernel:  __alloc_pages_slowpath.constprop.0+0xaf6/0xdb0
+mei 05 16:33:38 my-system-name kernel:  __alloc_pages+0x32d/0x350
+mei 05 16:33:38 my-system-name kernel:  folio_alloc+0x1b/0x50
+mei 05 16:33:38 my-system-name kernel:  __filemap_get_folio+0x13e/0x2e0
+mei 05 16:33:38 my-system-name kernel:  filemap_fault+0x153/0xb60
+mei 05 16:33:38 my-system-name kernel:  __do_fault+0x30/0x140
+mei 05 16:33:38 my-system-name kernel:  do_fault+0x2a3/0x460
+mei 05 16:33:38 my-system-name kernel:  __handle_mm_fault+0x7a6/0xdc0
+mei 05 16:33:38 my-system-name kernel:  handle_mm_fault+0x17f/0x360
+mei 05 16:33:38 my-system-name kernel:  do_user_addr_fault+0x1ed/0x660
+mei 05 16:33:38 my-system-name kernel:  exc_page_fault+0x71/0x160
+mei 05 16:33:38 my-system-name kernel:  asm_exc_page_fault+0x26/0x30
+mei 05 16:33:38 my-system-name kernel: RIP: 0023:0xf7a892a5
+mei 05 16:33:38 my-system-name kernel: Code: Unable to access opcode bytes at 0xf7a8927b.
+mei 05 16:33:38 my-system-name kernel: RSP: 002b:00000000d7bfdb70 EFLAGS: 00010297
+mei 05 16:33:38 my-system-name kernel: RAX: 0000000000000002 RBX: 000000000000006e RCX: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: RDX: 0000000000000000 RSI: 0000000000000000 RDI: 00000000587ac684
+mei 05 16:33:38 my-system-name kernel: RBP: 0000000000000000 R08: 0000000000000000 R09: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R10: 0000000000000000 R11: 0000000000000286 R12: 0000000000000000
+mei 05 16:33:38 my-system-name kernel: R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+mei 05 16:33:38 my-system-name kernel:  </TASK>
+mei 05 16:33:38 my-system-name kernel: Mem-Info:
+mei 05 16:33:38 my-system-name kernel: active_anon:1114595 inactive_anon:1312934 isolated_anon:0
+                               active_file:433 inactive_file:1996 isolated_file:0
+                               unevictable:3018 dirty:0 writeback:0
+                               slab_reclaimable:34327 slab_unreclaimable:66234
+                               mapped:227438 shmem:146283 pagetables:13811
+                               sec_pagetables:0 bounce:0
+                               kernel_misc_reclaimable:0
+                               free:34314 free_pcp:63 free_cma:0
+mei 05 16:33:38 my-system-name kernel: Node 0 active_anon:4458380kB inactive_anon:5251736kB active_file:1732kB inactive_file:7336kB unevictable:12072kB isolated(anon):0kB isolated(file):0kB mapped:909752kB dirty:0kB writeback:0kB shmem:585132kB shmem_thp:0kB shmem_pmdmapped:0kB anon_thp:0kB writeback_tmp:0kB kernel_stack:16576kB pagetables:55244kB sec_pagetables:0kB all_unreclaimable? no
+mei 05 16:33:38 my-system-name kernel: Node 0 DMA free:13308kB boost:0kB min:64kB low:80kB high:96kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+mei 05 16:33:38 my-system-name kernel: lowmem_reserve[]: 0 2129 15816 15816 15816
+mei 05 16:33:38 my-system-name kernel: Node 0 DMA32 free:63624kB boost:0kB min:9088kB low:11360kB high:13632kB reserved_highatomic:0KB active_anon:641616kB inactive_anon:445244kB active_file:0kB inactive_file:5484kB unevictable:72kB writepending:0kB present:2267952kB managed:2200388kB mlocked:72kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+mei 05 16:33:38 my-system-name kernel: lowmem_reserve[]: 0 0 13687 13687 13687
+mei 05 16:33:38 my-system-name kernel: Node 0 Normal free:60324kB boost:0kB min:58428kB low:73032kB high:87636kB reserved_highatomic:4096KB active_anon:3819248kB inactive_anon:4804008kB active_file:2008kB inactive_file:880kB unevictable:12000kB writepending:0kB present:14352384kB managed:14023012kB mlocked:11992kB bounce:0kB free_pcp:252kB local_pcp:0kB free_cma:0kB
+mei 05 16:33:38 my-system-name kernel: lowmem_reserve[]: 0 0 0 0 0
+mei 05 16:33:38 my-system-name kernel: Node 0 DMA: 1*4kB (U) 1*8kB (U) 1*16kB (U) 1*32kB (U) 1*64kB (U) 1*128kB (U) 1*256kB (U) 1*512kB (U) 0*1024kB 2*2048kB (UM) 2*4096kB (M) = 13308kB
+mei 05 16:33:38 my-system-name kernel: Node 0 DMA32: 189*4kB (UME) 141*8kB (UE) 103*16kB (UME) 191*32kB (UME) 183*64kB (UME) 47*128kB (UME) 21*256kB (UM) 15*512kB (UM) 11*1024kB (UME) 6*2048kB (UM) 0*4096kB = 63980kB
+mei 05 16:33:38 my-system-name kernel: Node 0 Normal: 1210*4kB (UME) 643*8kB (UME) 430*16kB (UME) 278*32kB (UME) 124*64kB (UME) 80*128kB (UM) 49*256kB (UM) 8*512kB (UM) 3*1024kB (UM) 0*2048kB 0*4096kB = 63648kB
+mei 05 16:33:38 my-system-name kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+mei 05 16:33:38 my-system-name kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+mei 05 16:33:38 my-system-name kernel: 151690 total pagecache pages
+mei 05 16:33:38 my-system-name kernel: 0 pages in swap cache
+mei 05 16:33:38 my-system-name kernel: Free swap  = 0kB
+mei 05 16:33:38 my-system-name kernel: Total swap = 0kB
+mei 05 16:33:38 my-system-name kernel: 4159081 pages RAM
+mei 05 16:33:38 my-system-name kernel: 0 pages HighMem/MovableOnly
+mei 05 16:33:38 my-system-name kernel: 99391 pages reserved
+mei 05 16:33:38 my-system-name kernel: 0 pages cma reserved
+mei 05 16:33:38 my-system-name kernel: 0 pages hwpoisoned
+mei 05 16:33:38 my-system-name kernel: Tasks state (memory values in pages):
+mei 05 16:33:38 my-system-name kernel: [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+mei 05 16:33:38 my-system-name kernel: [    613]     0   613    12460      984    98304        0          -250 systemd-journal
+mei 05 16:33:38 my-system-name kernel: [    717]     0   717     8669     1305    90112        0         -1000 systemd-udevd
+mei 05 16:33:38 my-system-name kernel: [    862]     0   862      988      481    49152        0             0 mount.ntfs-3g
+mei 05 16:33:38 my-system-name kernel: [    910]     0   910      988      450    53248        0             0 mount.ntfs-3g
+mei 05 16:33:38 my-system-name kernel: [    933]     0   933      988      481    45056        0             0 mount.ntfs-3g
+mei 05 16:33:38 my-system-name kernel: [    957]     0   957     2313     1345    49152        0             0 mount.ntfs-3g
+mei 05 16:33:38 my-system-name kernel: [    981]     0   981     1047      608    49152        0             0 mount.ntfs-3g
+mei 05 16:33:38 my-system-name kernel: [   1000]   996  1000     4178      800    69632        0          -900 systemd-oomd
+mei 05 16:33:38 my-system-name kernel: [   1005]   154  1005    59710      960   102400        0             0 systemd-timesyn
+mei 05 16:33:38 my-system-name kernel: [   1044]     0  1044      635      416    45056        0             0 acpid
+mei 05 16:33:38 my-system-name kernel: [   1052]   992  1052     3428      992    65536        0             0 avahi-daemon
+mei 05 16:33:38 my-system-name kernel: [   1056]     0  1056     2482      832    61440        0             0 bluetoothd
+mei 05 16:33:38 my-system-name kernel: [   1060]     4  1060     3986     1216    69632        0          -900 dbus-daemon
+mei 05 16:33:38 my-system-name kernel: [   1189]     0  1189     4347      875    69632        0             0 systemd-logind
+mei 05 16:33:38 my-system-name kernel: [   1272]     0  1272    83282     1792   151552        0             0 NetworkManager
+mei 05 16:33:38 my-system-name kernel: [   1273]     0  1273    60669     1024   102400        0             0 cups-browsed
+mei 05 16:33:38 my-system-name kernel: [   1332]     0  1332     2887     1632    61440        0         -1000 sshd
+mei 05 16:33:38 my-system-name kernel: [   1351]     0  1351     5968     1216    81920        0             0 cupsd
+mei 05 16:33:38 my-system-name kernel: [   1354]     0  1354      903      896    49152        0             0 greetd
+mei 05 16:33:38 my-system-name kernel: [   1355]    36  1355     3258      864    65536        0             0 dbus
+mei 05 16:33:38 my-system-name kernel: [   1475]   998  1475   171639     1216   139264        0             0 nsncd
+mei 05 16:33:38 my-system-name kernel: [   1609]     0  1609     2857     2851    57344        0             0 greetd
+mei 05 16:33:38 my-system-name kernel: [   1634]  1000  1634     5214     1632    77824        0           100 systemd
+mei 05 16:33:38 my-system-name kernel: [   1636]  1000  1636     5079      792    77824        0           100 (sd-pam)
+mei 05 16:33:38 my-system-name kernel: [   1650]  1000  1650   186760    31659   688128        0             0 .Hyprland-wrapp
+mei 05 16:33:38 my-system-name kernel: [   1660]    28  1660    95279     1345    98304        0             0 polkitd
+mei 05 16:33:38 my-system-name kernel: [   1678]  1000  1678     1619      571    49152        0           200 dbus-daemon
+mei 05 16:33:38 my-system-name kernel: [   1729]  1000  1729    38786      800    73728        0             0 sway-audio-idle
+mei 05 16:33:38 my-system-name kernel: [   1733]  1000  1733    55688      576    61440        0             0 changewallpaper
+mei 05 16:33:38 my-system-name kernel: [   1735]  1000  1735   185822     5898   266240        0             0 .blueman-applet
+mei 05 16:33:38 my-system-name kernel: [   1737]  1000  1737 294193009    21151  1048576        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   1739]  1000  1739      806      512    45056        0             0 bwrap
+mei 05 16:33:38 my-system-name kernel: [   1763]  1000  1763     1664      672    53248        0           200 swayidle
+mei 05 16:33:38 my-system-name kernel: [   1776]  1000  1776    55993      704    69632        0             0 bash
+mei 05 16:33:38 my-system-name kernel: [   1779]  1000  1779   625082     4623   585728        0           200 .waybar-wrapped
+mei 05 16:33:38 my-system-name kernel: [   1781]  1000  1781   245067     2498   204800        0           200 .xdg-desktop-po
+mei 05 16:33:38 my-system-name kernel: [   1787]  1000  1787    45544     3988   126976        0           200 .mako-wrapped
+mei 05 16:33:38 my-system-name kernel: [   1788]  1000  1788    85769     3396   131072        0           200 pipewire
+mei 05 16:33:38 my-system-name kernel: [   1789]  1000  1789   101856     6538   147456        0           200 pipewire-pulse
+mei 05 16:33:38 my-system-name kernel: [   1790]  1000  1790   231707     3359   212992        0           200 wireplumber
+mei 05 16:33:38 my-system-name kernel: [   1795]   997  1795     5796      544    57344        0             0 rtkit-daemon
+mei 05 16:33:38 my-system-name kernel: [   1819]  1000  1819    73937    32576   589824        0             0 Xwayland
+mei 05 16:33:38 my-system-name kernel: [   1822]  1000  1822     3907      950    65536        0             0 swaybg
+mei 05 16:33:38 my-system-name kernel: [   1827]  1000  1827   242059      512   167936        0           200 .xdg-document-p
+mei 05 16:33:38 my-system-name kernel: [   1831]  1000  1831   130819      832   106496        0           200 .xdg-permission
+mei 05 16:33:38 my-system-name kernel: [   1838]  1000  1838      630      416    49152        0           200 fusermount3
+mei 05 16:33:38 my-system-name kernel: [   1841]  1000  1841   159304     2369   204800        0           200 .xdg-desktop-po
+mei 05 16:33:38 my-system-name kernel: [   1874]  1000  1874  8501493     3072   385024        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   1875]  1000  1875  8501491     2976   376832        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   1877]  1000  1877  8501491     2435   204800        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   1879]  1000  1879   131695      864   114688        0           200 .gvfsd-wrapped
+mei 05 16:33:38 my-system-name kernel: [   1890]  1000  1890   168088      768   131072        0           200 .gvfsd-fuse-wra
+mei 05 16:33:38 my-system-name kernel: [   1905]  1000  1905     5599      992    69632        0           200 .xdg-desktop-po
+mei 05 16:33:38 my-system-name kernel: [   1908]  1000  1908    26993      960    90112        0           200 .xdg-desktop-po
+mei 05 16:33:38 my-system-name kernel: [   2013]     0  2013   111258     1824   126976        0             0 nix-daemon
+mei 05 16:33:38 my-system-name kernel: [   2038]  1000  2038  8393893      352    61440        0             0 chrome_crashpad
+mei 05 16:33:38 my-system-name kernel: [   2062]  1000  2062  8549707    33440  1048576        0           200 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   2071]  1000  2071  8517966     3354   503808        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   2088]  1000  2088  8524003     5323   323584        0           200 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   2132]  1000  2132    11906     1024    77824        0           200 obexd
+mei 05 16:33:38 my-system-name kernel: [   2136]  1000  2136   145067     5275   225280        0             0 .blueman-tray-w
+mei 05 16:33:38 my-system-name kernel: [   4064]  1000  4064 296859459    53142  1794048        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   4329]  1000  4329   174733    34032   999424        0             0 steam
+mei 05 16:33:38 my-system-name kernel: [   6097]  1000  6097  8533588     2912   454656        0             0 .Discord-wrappe
+mei 05 16:33:38 my-system-name kernel: [   6367]     0  6367   117784     1792   139264        0             0 udisksd
+mei 05 16:33:38 my-system-name kernel: [   6410]  1000  6410   115684      384   151552        0             0 steam-runtime-l
+mei 05 16:33:38 my-system-name kernel: [   6466]  1000  6466     3839     2368    69632        0             0 sd_pico
+mei 05 16:33:38 my-system-name kernel: [   6472]  1000  6472     4924      864    77824        0             0 sd_flite
+mei 05 16:33:38 my-system-name kernel: [   6478]  1000  6478    80427     1346   102400        0             0 sd_espeak-ng-mb
+mei 05 16:33:38 my-system-name kernel: [   6733]  1000  6733      865      544    45056        0             0 mbrola
+mei 05 16:33:38 my-system-name kernel: [   6734]  1000  6734    80732     1728   110592        0             0 sd_espeak-ng
+mei 05 16:33:38 my-system-name kernel: [   6805]  1000  6805    24523     1120    81920        0             0 sd_dummy
+mei 05 16:33:38 my-system-name kernel: [   6808]  1000  6808    82620     1406    86016        0             0 speech-dispatch
+mei 05 16:33:38 my-system-name kernel: [   7232]  1000  7232    55960      672    69632        0             0 steam-runtime-s
+mei 05 16:33:38 my-system-name kernel: [   7258]  1000  7258     1155      448    49152        0             0 srt-bwrap
+mei 05 16:33:38 my-system-name kernel: [   7441]  1000  7441    61547      640   143360        0             0 pressure-vessel
+mei 05 16:33:38 my-system-name kernel: [   7491]  1000  7491   766647    65548  1523712        0             0 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7500]  1000  7500   118697     5228   450560        0             0 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7504]  1000  7504   159888     6240   577536        0             0 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7505]  1000  7505   159872     6182   585728        0             0 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7561]  1000  7561   453104     6539   720896        0             0 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7569]  1000  7569   292163    53373  1024000        0           200 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7585]  1000  7585   233651     6039   475136        0           200 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7591]  1000  7591 12896945   136832  2310144        0           300 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7739]  1000  7739 12681781    21786  1183744        0           300 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [   7853]  1000  7853   271727     6148   655360        0             0 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [  27011]  1000 27011    32631     4899   188416        0             0 reaper
+mei 05 16:33:38 my-system-name kernel: [  27016]  1000 27016     1182      448    57344        0             0 srt-bwrap
+mei 05 16:33:38 my-system-name kernel: [  27223]  1000 27223     6814      640   122880        0             0 pressure-vessel
+mei 05 16:33:38 my-system-name kernel: [  27258]  1000 27258    34160     6258   241664        0             0 python3
+mei 05 16:33:38 my-system-name kernel: [  27271]  1000 27271   144938     4775   430080        0             0 steam.exe
+mei 05 16:33:38 my-system-name kernel: [  27273]  1000 27273    33251     6395   143360        0             0 wineserver
+mei 05 16:33:38 my-system-name kernel: [  27277]  1000 27277   268520    10020   471040        0             0 services.exe
+mei 05 16:33:38 my-system-name kernel: [  27280]  1000 27280   254234    10790   487424        0             0 winedevice.exe
+mei 05 16:33:38 my-system-name kernel: [  27289]  1000 27289   227304    10324   495616        0             0 winedevice.exe
+mei 05 16:33:38 my-system-name kernel: [  27301]  1000 27301   202949     9933   442368        0             0 plugplay.exe
+mei 05 16:33:38 my-system-name kernel: [  27307]  1000 27307   131406     8511   380928        0             0 svchost.exe
+mei 05 16:33:38 my-system-name kernel: [  27345]  1000 27345   157149     8993   540672        0             0 explorer.exe
+mei 05 16:33:38 my-system-name kernel: [  27351]  1000 27351   200025     9502   417792        0             0 rpcss.exe
+mei 05 16:33:38 my-system-name kernel: [  27361]  1000 27361   148687     2639   290816        0             0 tabtip.exe
+mei 05 16:33:38 my-system-name kernel: [  27468]  1000 27468  3704114  1536802 14462976        0             0 bg3.exe
+mei 05 16:33:38 my-system-name kernel: [  27743]  1000 27743    76370     7856   401408        0             0 gameoverlayui
+mei 05 16:33:38 my-system-name kernel: [  27745]  1000 27745 12446135     6564   811008        0           300 steamwebhelper
+mei 05 16:33:38 my-system-name kernel: [  43248]  1000 43248   906855    85661  2576384        0             0 .firefox-wrappe
+mei 05 16:33:38 my-system-name kernel: [  43345]  1000 43345    56735     2976   266240        0             0 Socket Process
+mei 05 16:33:38 my-system-name kernel: [  43376]  1000 43376   698824     8987   811008        0           167 Privileged Cont
+mei 05 16:33:38 my-system-name kernel: [  43456]  1000 43456  6053979    32350  1712128        0           100 WebExtensions
+mei 05 16:33:38 my-system-name kernel: [  43533]  1000 43533    82774     3554   393216        0             0 Utility Process
+mei 05 16:33:38 my-system-name kernel: [  43566]  1000 43566   730982    16716  1294336        0           167 Isolated Web Co
+mei 05 16:33:38 my-system-name kernel: [  44157]  1000 44157   100578     9032   507904        0             0 RDD Process
+mei 05 16:33:38 my-system-name kernel: [  47045]  1000 47045      666       96    40960        0             0 wl-copy
+mei 05 16:33:38 my-system-name kernel: [ 244865]  1000 244865   777527    53365  2039808        0           167 Isolated Web Co
+mei 05 16:33:38 my-system-name kernel: [ 245193]  1000 245193   799440    92828  2457600        0           100 Isolated Web Co
+mei 05 16:33:38 my-system-name kernel: [ 297367]  1000 297367   139605    30201   376832        0           200 waybar-weather
+mei 05 16:33:38 my-system-name kernel: [ 297368]  1000 297368   139605    30189   368640        0           200 waybar-weather
+mei 05 16:33:38 my-system-name kernel: [ 297371]     0 297371   111828     1563   135168        0             0 nix-daemon
+mei 05 16:33:38 my-system-name kernel: [ 297372]     0 297372   111828     1760   135168        0             0 nix-daemon
+mei 05 16:33:38 my-system-name kernel: [ 299069]  1000 299069    55688      576    65536        0           200 waybar-currentp
+mei 05 16:33:38 my-system-name kernel: [ 299070]  1000 299070    55688      512    61440        0           200 waybar-currentp
+mei 05 16:33:38 my-system-name kernel: [ 299160]  1000 299160     4619       32    61440        0             0 steamerrorrepor
+mei 05 16:33:38 my-system-name kernel: [ 299170]  1000 299170    55688      205    49152        0           200 waybar-currentp
+mei 05 16:33:38 my-system-name kernel: [ 299169]  1000 299169    55688      205    53248        0           200 waybar-currentp
+mei 05 16:33:38 my-system-name kernel: [ 299171]  1000 299171    93655      448    90112        0           200 playerctl
+mei 05 16:33:38 my-system-name kernel: [ 299172]  1000 299172    93655      448    77824        0           200 playerctl
+mei 05 16:33:38 my-system-name kernel: [ 299173]  1000 299173    55915      352    69632        0           200 /nix/store/43dn
+mei 05 16:33:38 my-system-name kernel: [ 299174]  1000 299174    55915      384    65536        0           200 /nix/store/43dn
+mei 05 16:33:38 my-system-name kernel: [ 299175]  1000 299175    55655      352    65536        0           200 sh
+mei 05 16:33:38 my-system-name kernel: [ 299176]  1000 299176    55655      256    57344        0           200 sh
+mei 05 16:33:38 my-system-name kernel: [ 299183]  1000 299183    93655      480    81920        0           200 playerctl
+mei 05 16:33:38 my-system-name kernel: [ 299184]  1000 299184    93655      384    86016        0           200 playerctl
+mei 05 16:33:38 my-system-name kernel: [ 299212]     0 299212     4080      384    61440        0             0 systemd-coredum
+mei 05 16:33:38 my-system-name kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=user.slice,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-3.scope,task=bg3.exe,pid=27468,uid=1000
+mei 05 16:33:38 my-system-name kernel: Out of memory: Killed process 27468 (bg3.exe) total-vm:14816456kB, anon-rss:5799020kB, file-rss:327984kB, shmem-rss:20204kB, UID:1000 pgtables:14124kB oom_score_adj:0
+mei 05 16:33:38 my-system-name systemd[1]: systemd-udevd.service: Watchdog timeout (limit 3min)!
+mei 05 16:33:38 my-system-name systemd[1]: systemd-udevd.service: Killing process 717 (systemd-udevd) with signal SIGABRT.
+mei 05 16:33:38 my-system-name systemd[1]: Started Process Core Dump (PID 299240/UID 0).
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Process 613 (systemd-journal) of user 0 dumped core.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Coredump diverted to /var/lib/systemd/coredump/core.systemd-journal.0.d695e25288d742e19f327f18b5fbc090.613.1714919618000000.zst
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libaudit.so.1 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libgpg-error.so.0 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libattr.so.1 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libzstd.so.1 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module liblzma.so.5 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libseccomp.so.2 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libpam.so.0 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module liblz4.so.1 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libkmod.so.2 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libgcrypt.so.20 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libcrypt.so.2 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libcap.so.2 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libacl.so.1 without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module libsystemd-shared-255.so without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Module systemd-journald without build-id.
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Stack trace of thread 613:
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #0  0x00007f2701eabf1b journal_file_find_data_object_with_hash (libsystemd-shared-255.so + 0x2abf1b)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #1  0x00007f2701eaee5b journal_file_append_data (libsystemd-shared-255.so + 0x2aee5b)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #2  0x00007f2701eaf7a5 journal_file_append_entry (libsystemd-shared-255.so + 0x2af7a5)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #3  0x0000560053ce679c server_dispatch_message_real (systemd-journald + 0x1179c)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #4  0x0000560053cdf37a dev_kmsg_record (systemd-journald + 0xa37a)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #5  0x0000560053cdf863 server_read_dev_kmsg (systemd-journald + 0xa863)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #6  0x00007f2701eda2e3 source_dispatch (libsystemd-shared-255.so + 0x2da2e3)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #7  0x00007f2701eda5d8 sd_event_dispatch (libsystemd-shared-255.so + 0x2da5d8)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #8  0x00007f2701edb100 sd_event_run (libsystemd-shared-255.so + 0x2db100)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #9  0x0000560053cde4e5 main (systemd-journald + 0x94e5)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #10 0x00007f2701a3f0ce __libc_start_call_main (libc.so.6 + 0x280ce)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #11 0x00007f2701a3f189 __libc_start_main@@GLIBC_2.34 (libc.so.6 + 0x28189)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: #12 0x0000560053cde805 _start (systemd-journald + 0x9805)
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: ELF object binary architecture: AMD x86-64
+mei 05 16:33:38 my-system-name systemd[1]: systemd-coredump@2-299240-0.service: Deactivated successfully.
+mei 05 16:33:38 my-system-name systemd[1]: systemd-journald.service: Main process exited, code=dumped, status=6/ABRT
+mei 05 16:33:38 my-system-name systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+mei 05 16:33:38 my-system-name systemd[1]: systemd-journald.service: Consumed 3.378s CPU time, no IP traffic.
+mei 05 16:33:38 my-system-name systemd[1]: systemd-udevd.service: Main process exited, code=dumped, status=6/ABRT
+mei 05 16:33:38 my-system-name systemd[1]: systemd-udevd.service: Failed with result 'watchdog'.
+mei 05 16:33:38 my-system-name systemd[1]: systemd-udevd.service: Consumed 6.119s CPU time, no IP traffic.
+mei 05 16:33:38 my-system-name systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+mei 05 16:33:38 my-system-name systemd[1]: systemd-udevd.service: Scheduled restart job, restart counter is at 1.
+mei 05 16:33:38 my-system-name systemd[1]: Starting Journal Service...
+mei 05 16:33:38 my-system-name systemd[1]: Starting Rule-based Manager for Device Events and Files...
+mei 05 16:33:38 my-system-name systemd-journald[299370]: Collecting audit messages is disabled.
+mei 05 16:33:38 my-system-name systemd-journald[299370]: File /var/log/journal/fc6b847937704d978dcc4a16cacee07f/system.journal corrupted or uncleanly shut down, renaming and replacing.
+mei 05 16:33:38 my-system-name systemd[1]: Started Rule-based Manager for Device Events and Files.
+mei 05 16:33:38 my-system-name systemd-journald[299370]: Journal started
+mei 05 16:33:38 my-system-name systemd-journald[299370]: System Journal (/var/log/journal/fc6b847937704d978dcc4a16cacee07f) is 423.7M, max 4.0G, 3.5G free.
+mei 05 16:14:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 64, need 152 (59 suppressed)
+mei 05 16:33:38 my-system-name systemd[1]: Started Journal Service.
+mei 05 16:33:38 my-system-name dbus-daemon[1678]: [session uid=1000 pid=1678] Connection has not authenticated soon enough, closing it (auth_timeout=240000ms, elapsed: 814498ms)
+mei 05 16:14:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 64, need 152 (57 suppressed)
+mei 05 16:33:38 my-system-name assert_20240505163337_115.dmp[299290]: Uploading dump (out-of-process)
+                                                             /tmp/dumps/assert_20240505163337_115.dmp
+mei 05 16:15:17 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 64, need 152 (5 suppressed)
+mei 05 16:17:45 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (67 suppressed)
+mei 05 16:21:31 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (122 suppressed)
+mei 05 16:21:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:21:36 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:21:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:21:40 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:21:43 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:21:45 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:21:47 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:21:49 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:21:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:21:53 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:21:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:21:58 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (6 suppressed)
+mei 05 16:22:00 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:22:02 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:22:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:22:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:22:12 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (6 suppressed)
+mei 05 16:22:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:22:15 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (6 suppressed)
+mei 05 16:22:17 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (7 suppressed)
+mei 05 16:22:19 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:22:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:22:25 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:27 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:29 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:31 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:35 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:22:39 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:22:41 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:22:43 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:22:47 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (6 suppressed)
+mei 05 16:22:49 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:22:54 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:56 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:22:58 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:22:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:23:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:23:07 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:23:09 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:23:12 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:23:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:23:15 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:23:18 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (13 suppressed)
+mei 05 16:23:19 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (11 suppressed)
+mei 05 16:23:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:23:24 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:23:26 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:23:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:23:30 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (11 suppressed)
+mei 05 16:23:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:23:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:23:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (7 suppressed)
+mei 05 16:23:39 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:23:42 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:23:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:23:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:23:48 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:23:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:23:53 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:23:56 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:23:57 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:24:00 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:02 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:24:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:24:07 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (21 suppressed)
+mei 05 16:24:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:24:11 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:14 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:24:19 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:24:20 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:24:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:24:24 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:26 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:24:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:24:30 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:32 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:35 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:24:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:40 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:41 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:24:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:24:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:49 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:24:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:24:53 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:24:56 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:24:58 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:00 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:02 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:05 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:25:07 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:09 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:11 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:25:14 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:17 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:21 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:25:25 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:30 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:25:32 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:25:40 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:25:43 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:47 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:50 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:52 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:25:57 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:25:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:10 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:15 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:17 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:26:20 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:24 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:25 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:31 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:39 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:26:42 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:26:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:26:48 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:26:50 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:52 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:26:54 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:26:57 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (17 suppressed)
+mei 05 16:26:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:27:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:27:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:10 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:27:12 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (6 suppressed)
+mei 05 16:27:14 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:19 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:21 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:27:23 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:25 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:30 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:32 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:27:36 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (9 suppressed)
+mei 05 16:27:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:41 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:27:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:27:48 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:27:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:27:52 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:27:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:27:56 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:27:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:28:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:28:02 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:28:07 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:28:09 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:28:12 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:28:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:28:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:28:18 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:20 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:23 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:28:26 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:28:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:30 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:28:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:39 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:28:41 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:28:42 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:28:45 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:28:47 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:28:50 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:28:52 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:28:54 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:28:57 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:28:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:29:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:03 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:05 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:29:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:11 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:12 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:29:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:17 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:29:21 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:29:23 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:29:25 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:29:27 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:29:29 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:32 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:29:34 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:29:36 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:29:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:39 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:29:42 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:29:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:29:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:29:49 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:29:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:29:53 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:29:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:29:57 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:29:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:30:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:30:11 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:14 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:30:15 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:30:18 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:20 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:30:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:30:24 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:26 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:30:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:31 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:30:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:30:35 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:40 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:42 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:30:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:30:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:48 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:30:50 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (6 suppressed)
+mei 05 16:30:52 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:30:56 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:30:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:31:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:03 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:07 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:10 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:14 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:31:18 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:31:21 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:31:24 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:31:26 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:28 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:31 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (5 suppressed)
+mei 05 16:31:32 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:35 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:31:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:31:40 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:31:42 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:44 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:46 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:48 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:31:50 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:53 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:55 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:57 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:31:59 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:01 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:04 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:06 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:32:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:32:09 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:12 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:32:14 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:19 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:20 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:32:25 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:27 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:29 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:32:32 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:32:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:36 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:32:38 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:32:40 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:32:43 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:45 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:47 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:49 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:32:51 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:32:54 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:32:56 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:32:58 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:33:00 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:33:03 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:05 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:33:08 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:09 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (1 suppressed)
+mei 05 16:33:11 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:13 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:33:16 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (7 suppressed)
+mei 05 16:33:18 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (3 suppressed)
+mei 05 16:33:20 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:22 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:24 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (9 suppressed)
+mei 05 16:33:30 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:33 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (4 suppressed)
+mei 05 16:33:35 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (0 suppressed)
+mei 05 16:33:37 my-system-name pipewire-pulse[1789]: spa.loop: 0x559f3ac91d38: queue full 88, need 152 (2 suppressed)
+mei 05 16:33:37 my-system-name systemd[1]: session-3.scope: A process of this unit has been killed by the OOM killer.
+mei 05 16:33:38 my-system-name systemd[1]: Started Process Core Dump (PID 299212/UID 0).
+mei 05 16:33:38 my-system-name systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+mei 05 16:33:38 my-system-name systemd[1]: systemd-journald.service: Killing process 613 (systemd-journal) with signal SIGABRT.
+mei 05 16:33:38 my-system-name systemd-timesyncd[1005]: Network configuration changed, trying to establish connection.
+mei 05 16:33:38 my-system-name systemd-timesyncd[1005]: Network configuration changed, trying to establish connection.
+mei 05 16:33:38 my-system-name systemd-timesyncd[1005]: Network configuration changed, trying to establish connection.
+mei 05 16:33:38 my-system-name systemd-timesyncd[1005]: Network configuration changed, trying to establish connection.
+mei 05 16:33:38 my-system-name systemd-timesyncd[1005]: Contacted time server 94.198.159.15:123 (0.nixos.pool.ntp.org).
+mei 05 16:33:38 my-system-name systemd-coredump[299239]: Process 613 (systemd-journal) of user 0 dumped core.
+mei 05 16:33:38 my-system-name systemd-coredump[299248]: Process 717 (systemd-udevd) of user 0 dumped core.
+                                                
+                                                Module libaudit.so.1 without build-id.
+                                                Module libgpg-error.so.0 without build-id.
+                                                Module libattr.so.1 without build-id.
+                                                Module libzstd.so.1 without build-id.
+                                                Module liblzma.so.5 without build-id.
+                                                Module libseccomp.so.2 without build-id.
+                                                Module libpam.so.0 without build-id.
+                                                Module liblz4.so.1 without build-id.
+                                                Module libgcrypt.so.20 without build-id.
+                                                Module libcrypt.so.2 without build-id.
+                                                Module libcap.so.2 without build-id.
+                                                Module libacl.so.1 without build-id.
+                                                Module libkmod.so.2 without build-id.
+                                                Module libsystemd-shared-255.so without build-id.
+                                                Module udevadm without build-id.
+                                                Stack trace of thread 717:
+                                                #0  0x00007f71dc8a0e51 read (libc.so.6 + 0x100e51)
+                                                #1  0x00007f71dc8229b3 _IO_file_underflow@@GLIBC_2.2.5 (libc.so.6 + 0x829b3)
+                                                #2  0x00007f71dc824d1f _IO_default_uflow (libc.so.6 + 0x84d1f)
+                                                #3  0x00007f71dcbe6b95 safe_fgetc (libsystemd-shared-255.so + 0x1e6b95)
+                                                #4  0x00007f71dcbe6d0c read_line_full (libsystemd-shared-255.so + 0x1e6d0c)
+                                                #5  0x000056400d081485 udev_rules_parse_file (udevadm + 0x3c485)
+                                                #6  0x000056400d08308a udev_rules_load (udevadm + 0x3e08a)
+                                                #7  0x000056400d06fe82 manager_reload (udevadm + 0x2ae82)
+                                                #8  0x000056400d07000f on_post (udevadm + 0x2b00f)
+                                                #9  0x00007f71dccd9edd source_dispatch (libsystemd-shared-255.so + 0x2d9edd)
+                                                #10 0x00007f71dccda5d8 sd_event_dispatch (libsystemd-shared-255.so + 0x2da5d8)
+                                                #11 0x00007f71dccdb100 sd_event_run (libsystemd-shared-255.so + 0x2db100)
+                                                #12 0x00007f71dccdb35f sd_event_loop (libsystemd-shared-255.so + 0x2db35f)
+                                                #13 0x000056400d071cdd manager_main (udevadm + 0x2ccdd)
+                                                #14 0x000056400d069ad0 run_udevd (udevadm + 0x24ad0)
+                                                #15 0x000056400d05d446 main (udevadm + 0x18446)
+                                                #16 0x00007f71dc7c80ce __libc_start_call_main (libc.so.6 + 0x280ce)
+                                                #17 0x00007f71dc7c8189 __libc_start_main@@GLIBC_2.34 (libc.so.6 + 0x28189)
+                                                #18 0x000056400d05d655 _start (udevadm + 0x18655)
+                                                ELF object binary architecture: AMD x86-64
+mei 05 16:33:38 my-system-name systemd-udevd[299385]: Using default interface naming scheme 'v255'.
+mei 05 16:33:38 my-system-name assert_20240505161243_112.dmp[299160]: Finished uploading minidump (out-of-process): success = no
+mei 05 16:33:38 my-system-name assert_20240505161243_112.dmp[299160]: error: SSL peer certificate or SSH remote key was not OK
+mei 05 16:33:38 my-system-name assert_20240505161243_112.dmp[299160]: file ''/tmp/dumps/assert_20240505161243_112.dmp'', upload no: ''SSL peer certificate or SSH remote key was not OK''
+mei 05 16:33:38 my-system-name assert_20240505163337_115.dmp[299290]: Finished uploading minidump (out-of-process): success = no
+mei 05 16:33:38 my-system-name assert_20240505163337_115.dmp[299290]: error: SSL peer certificate or SSH remote key was not OK
+mei 05 16:33:38 my-system-name assert_20240505163337_115.dmp[299290]: file ''/tmp/dumps/assert_20240505163337_115.dmp'', upload no: ''SSL peer certificate or SSH remote key was not OK''
+mei 05 16:33:40 my-system-name systemd-coredump[299238]: Process 4064 (.Discord-wrappe) of user 1000 dumped core.
+                                                
+                                                Module libmp3lame.so.0 without build-id.
+                                                Module libmpg123.so.0 without build-id.
+                                                Module libogg.so.0 without build-id.
+                                                Module libopus.so.0 without build-id.
+                                                Module libvorbisenc.so.2 without build-id.
+                                                Module libvorbis.so.0 without build-id.
+                                                Module libFLAC.so.12 without build-id.
+                                                Module libsndfile.so.1 without build-id.
+                                                Module libpulsecommon-17.0.so without build-id.
+                                                Module libpulse.so.0 without build-id.
+                                                Module libstdc++.so.6 without build-id.
+                                                Module libXss.so.1 without build-id.
+                                                Module libatomic.so.1 without build-id.
+                                                Module libbrotlicommon.so.1 without build-id.
+                                                Module libgpg-error.so.0 without build-id.
+                                                Module libdatrie.so.1 without build-id.
+                                                Module libxml2.so.2 without build-id.
+                                                Module libjson-glib-1.0.so.0 without build-id.
+                                                Module libjpeg.so.62 without build-id.
+                                                Module libbrotlidec.so.1 without build-id.
+                                                Module libbz2.so.1 without build-id.
+                                                Module libgraphite2.so.3 without build-id.
+                                                Module libXinerama.so.1 without build-id.
+                                                Module libXcursor.so.1 without build-id.
+                                                Module libzstd.so.1 without build-id.
+                                                Module liblzma.so.5 without build-id.
+                                                Module liblz4.so.1 without build-id.
+                                                Module libgcrypt.so.20 without build-id.
+                                                Module libcap.so.2 without build-id.
+                                                Module libgmp.so.10 without build-id.
+                                                Module libhogweed.so.6 without build-id.
+                                                Module libnettle.so.8 without build-id.
+                                                Module libtasn1.so.6 without build-id.
+                                                Module libunistring.so.5 without build-id.
+                                                Module libidn2.so.0 without build-id.
+                                                Module libp11-kit.so.0 without build-id.
+                                                Module libssp.so.0 without build-id.
+                                                Module libXdmcp.so.6 without build-id.
+                                                Module libXau.so.6 without build-id.
+                                                Module libxcb-randr.so.0 without build-id.
+                                                Module libxcb-shm.so.0 without build-id.
+                                                Module libxcb-render.so.0 without build-id.
+                                                Module libXrender.so.1 without build-id.
+                                                Module libfreetype.so.6 without build-id.
+                                                Module libpng16.so.16 without build-id.
+                                                Module libthai.so.0 without build-id.
+                                                Module libtracker-sparql-3.0.so.0 without build-id.
+                                                Module libXi.so.6 without build-id.
+                                                Module libepoxy.so.0 without build-id.
+                                                Module libfribidi.so.0 without build-id.
+                                                Module libfontconfig.so.1 without build-id.
+                                                Module libpangoft2-1.0.so.0 without build-id.
+                                                Module libharfbuzz.so.0 without build-id.
+                                                Module libpangocairo-1.0.so.0 without build-id.
+                                                Module libsystemd.so.0 without build-id.
+                                                Module libgnutls.so.30 without build-id.
+                                                Module libavahi-client.so.3 without build-id.
+                                                Module libavahi-common.so.3 without build-id.
+                                                Module libplc4.so without build-id.
+                                                Module libplds4.so without build-id.
+                                                Module libselinux.so.1 without build-id.
+                                                Module libz.so.1 without build-id.
+                                                Module libpcre2-8.so.0 without build-id.
+                                                Module libffi.so.8 without build-id.
+                                                Module libgcc_s.so.1 without build-id.
+                                                Module libasound.so.2 without build-id.
+                                                Module libxkbcommon.so.0 without build-id.
+                                                Module libxcb.so.1 without build-id.
+                                                Module libexpat.so.1 without build-id.
+                                                Module libXrandr.so.2 without build-id.
+                                                Module libXfixes.so.3 without build-id.
+                                                Module libXext.so.6 without build-id.
+                                                Module libXdamage.so.1 without build-id.
+                                                Module libXcomposite.so.1 without build-id.
+                                                Module libX11.so.6 without build-id.
+                                                Module libpango-1.0.so.0 without build-id.
+                                                Module libdrm.so.2 without build-id.
+                                                Module libcups.so.2 without build-id.
+                                                Module libnspr4.so without build-id.
+                                                Module libsmime3.so without build-id.
+                                                Module libnssutil3.so without build-id.
+                                                Module libnss3.so without build-id.
+                                                Stack trace of thread 6087:
+                                                #0  0x00007f9998d394dd n/a (/home/my-user/.config/discord/0.0.45/modules/discord_voice/discord_voice.node + 0x5394dd)
+                                                #1  0x00007f99e66c0f90 context_get_server_info_callback (libpulse.so.0 + 0x1cf90)
+                                                #2  0x00007f99e6663551 run_action (libpulsecommon-17.0.so + 0x45551)
+                                                #3  0x00007f99e66cc242 pa_mainloop_dispatch (libpulse.so.0 + 0x28242)
+                                                #4  0x00007f99e66cc5e4 pa_mainloop_iterate (libpulse.so.0 + 0x285e4)
+                                                #5  0x00007f99e66cc680 pa_mainloop_run (libpulse.so.0 + 0x28680)
+                                                #6  0x00007f99e66da4c9 thread (libpulse.so.0 + 0x364c9)
+                                                #7  0x00007f99e667ab6f internal_thread_func (libpulsecommon-17.0.so + 0x5cb6f)
+                                                #8  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #9  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4142:
+                                                #0  0x000055e792fa99ec n/a (.Discord-wrapped + 0x56d79ec)
+                                                #1  0x000055e792e7d09b n/a (.Discord-wrapped + 0x55ab09b)
+                                                #2  0x000055e792e2c25c n/a (.Discord-wrapped + 0x555a25c)
+                                                #3  0x000055e792def058 n/a (.Discord-wrapped + 0x551d058)
+                                                #4  0x000055e792e4b038 n/a (.Discord-wrapped + 0x5579038)
+                                                #5  0x000055e792e35cad n/a (.Discord-wrapped + 0x5563cad)
+                                                #6  0x000055e792e4b1d1 n/a (.Discord-wrapped + 0x55791d1)
+                                                #7  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #8  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #9  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4064:
+                                                #0  0x000055e791167fb3 _ZN2v88internal6Object11GetPropertyEPNS0_14LookupIteratorEb (.Discord-wrapped + 0x3895fb3)
+                                                #1  0x000055e7912c6bcf _ZN2v88internal7Runtime17GetObjectPropertyEPNS0_7IsolateENS0_6HandleINS0_6ObjectEEES6_S6_Pb (.Discord-wrapped + 0x39f4bcf)
+                                                #2  0x000055e790cdb8f6 _ZN2v86Object3GetENS_5LocalINS_7ContextEEENS1_INS_5ValueEEE (.Discord-wrapped + 0x34098f6)
+                                                #3  0x000055e78fc4386d n/a (.Discord-wrapped + 0x237186d)
+                                                #4  0x000055e78fc45488 n/a (.Discord-wrapped + 0x2373488)
+                                                #5  0x000055e78fc445fc n/a (.Discord-wrapped + 0x23725fc)
+                                                #6  0x000055e78fc44d13 n/a (.Discord-wrapped + 0x2372d13)
+                                                #7  0x000055e790d2ff50 n/a (.Discord-wrapped + 0x345df50)
+                                                #8  0x000055e71ff17438 n/a (n/a + 0x0)
+                                                #9  0x000055e700172d60 n/a (n/a + 0x0)
+                                                #10 0x000055e7002df9d4 n/a (n/a + 0x0)
+                                                #11 0x000055e700670302 n/a (n/a + 0x0)
+                                                #12 0x000055e7007fd569 n/a (n/a + 0x0)
+                                                #13 0x000055e70090adcf n/a (n/a + 0x0)
+                                                #14 0x000055e700867dfc n/a (n/a + 0x0)
+                                                #15 0x000055e71fe89e5c n/a (n/a + 0x0)
+                                                #16 0x000055e71fe89b87 n/a (n/a + 0x0)
+                                                #17 0x000055e790dfddcc n/a (.Discord-wrapped + 0x352bdcc)
+                                                #18 0x000055e790dfd663 _ZN2v88internal9Execution4CallEPNS0_7IsolateENS0_6HandleINS0_6ObjectEEES6_iPS6_ (.Discord-wrapped + 0x352b663)
+                                                #19 0x000055e790ce212b _ZN2v88Function4CallENS_5LocalINS_7ContextEEENS1_INS_5ValueEEEiPS5_ (.Discord-wrapped + 0x341012b)
+                                                #20 0x000055e79482c2c8 n/a (.Discord-wrapped + 0x6f5a2c8)
+                                                #21 0x000055e78faae6cb n/a (.Discord-wrapped + 0x21dc6cb)
+                                                #22 0x000055e79587c83f n/a (.Discord-wrapped + 0x7faa83f)
+                                                #23 0x000055e79587cb45 n/a (.Discord-wrapped + 0x7faab45)
+                                                #24 0x000055e794b42520 n/a (.Discord-wrapped + 0x7270520)
+                                                #25 0x000055e794b41b50 n/a (.Discord-wrapped + 0x726fb50)
+                                                #26 0x000055e79555c414 n/a (.Discord-wrapped + 0x7c8a414)
+                                                #27 0x000055e792e32c7b n/a (.Discord-wrapped + 0x5560c7b)
+                                                #28 0x000055e792e32d00 n/a (.Discord-wrapped + 0x5560d00)
+                                                #29 0x000055e792e0d836 n/a (.Discord-wrapped + 0x553b836)
+                                                #30 0x000055e792e2b348 n/a (.Discord-wrapped + 0x5559348)
+                                                #31 0x000055e792e2bb6a n/a (.Discord-wrapped + 0x5559b6a)
+                                                #32 0x000055e792dccf3c n/a (.Discord-wrapped + 0x54faf3c)
+                                                #33 0x000055e792e2c25c n/a (.Discord-wrapped + 0x555a25c)
+                                                #34 0x000055e792def058 n/a (.Discord-wrapped + 0x551d058)
+                                                #35 0x000055e79673ba10 n/a (.Discord-wrapped + 0x8e69a10)
+                                                #36 0x000055e78fd985e7 n/a (.Discord-wrapped + 0x24c65e7)
+                                                #37 0x000055e78fd9942b n/a (.Discord-wrapped + 0x24c742b)
+                                                #38 0x000055e78fd96582 n/a (.Discord-wrapped + 0x24c4582)
+                                                #39 0x000055e78fd96cb5 n/a (.Discord-wrapped + 0x24c4cb5)
+                                                #40 0x000055e78fadb55d n/a (.Discord-wrapped + 0x220955d)
+                                                #41 0x00007f99f904c0ce __libc_start_call_main (libc.so.6 + 0x280ce)
+                                                #42 0x00007f99f904c189 __libc_start_main@@GLIBC_2.34 (libc.so.6 + 0x28189)
+                                                #43 0x000055e78f77002a _start (.Discord-wrapped + 0x1e9e02a)
+                                                
+                                                Stack trace of thread 4144:
+                                                #0  0x00007f99f9132426 epoll_wait (libc.so.6 + 0x10e426)
+                                                #1  0x000055e792fabf44 n/a (.Discord-wrapped + 0x56d9f44)
+                                                #2  0x000055e792fa9c6f n/a (.Discord-wrapped + 0x56d7c6f)
+                                                #3  0x000055e792e7d11b n/a (.Discord-wrapped + 0x55ab11b)
+                                                #4  0x000055e792e2c25c n/a (.Discord-wrapped + 0x555a25c)
+                                                #5  0x000055e792def058 n/a (.Discord-wrapped + 0x551d058)
+                                                #6  0x000055e792e4b038 n/a (.Discord-wrapped + 0x5579038)
+                                                #7  0x000055e7947933df n/a (.Discord-wrapped + 0x6ec13df)
+                                                #8  0x000055e792e4b1d1 n/a (.Discord-wrapped + 0x55791d1)
+                                                #9  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #10 0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #11 0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4149:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e792e6a0da n/a (.Discord-wrapped + 0x55980da)
+                                                #4  0x000055e792dccf8b n/a (.Discord-wrapped + 0x54faf8b)
+                                                #5  0x000055e792e2c25c n/a (.Discord-wrapped + 0x555a25c)
+                                                #6  0x000055e792def058 n/a (.Discord-wrapped + 0x551d058)
+                                                #7  0x000055e792e4b038 n/a (.Discord-wrapped + 0x5579038)
+                                                #8  0x000055e792e4b1d1 n/a (.Discord-wrapped + 0x55791d1)
+                                                #9  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #10 0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #11 0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4160:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e792e6a0da n/a (.Discord-wrapped + 0x55980da)
+                                                #4  0x000055e792dccf8b n/a (.Discord-wrapped + 0x54faf8b)
+                                                #5  0x000055e792e2c25c n/a (.Discord-wrapped + 0x555a25c)
+                                                #6  0x000055e792def058 n/a (.Discord-wrapped + 0x551d058)
+                                                #7  0x000055e791c2c0ba n/a (.Discord-wrapped + 0x435a0ba)
+                                                #8  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #9  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #10 0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4161:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e792e6a4b7 n/a (.Discord-wrapped + 0x55984b7)
+                                                #4  0x000055e792e43f26 n/a (.Discord-wrapped + 0x5571f26)
+                                                #5  0x000055e792e449e2 n/a (.Discord-wrapped + 0x55729e2)
+                                                #6  0x000055e792e4467d n/a (.Discord-wrapped + 0x557267d)
+                                                #7  0x000055e792e44575 n/a (.Discord-wrapped + 0x5572575)
+                                                #8  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #9  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #10 0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4176:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e79559d8ef n/a (.Discord-wrapped + 0x7ccb8ef)
+                                                #4  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #5  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #6  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4180:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e79559d8ef n/a (.Discord-wrapped + 0x7ccb8ef)
+                                                #4  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #5  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #6  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4179:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e79559d8ef n/a (.Discord-wrapped + 0x7ccb8ef)
+                                                #4  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #5  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #6  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4177:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x000055e792e69941 n/a (.Discord-wrapped + 0x5597941)
+                                                #3  0x000055e79559d8ef n/a (.Discord-wrapped + 0x7ccb8ef)
+                                                #4  0x000055e792e6df54 n/a (.Discord-wrapped + 0x559bf54)
+                                                #5  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #6  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 4206:
+                                                #0  0x00007f99f9132426 epoll_wait (libc.so.6 + 0x10e426)
+                                                #1  0x000055e78fc7541d n/a (.Discord-wrapped + 0x23a341d)
+                                                #2  0x000055e78fc40207 n/a (.Discord-wrapped + 0x236e207)
+                                                #3  0x00007f99f90af383 start_thread (libc.so.6 + 0x8b383)
+                                                #4  0x00007f99f913200c __clone3 (libc.so.6 + 0x10e00c)
+                                                
+                                                Stack trace of thread 6073:
+                                                #0  0x00007f99f90abebe __futex_abstimed_wait_common (libc.so.6 + 0x87ebe)
+                                                #1  0x00007f99f90ae720 pthread_cond_wait@@GLIBC_2.3.2 (libc.so.6 + 0x8a720)
+                                                #2  0x00007f99e66dab58 pa_threaded_mainloop_wait (libpulse.so.0 + 0x36b58)
+                                                #3  0x00007f9998d36e42 n/a (/home/my-user/.config/discord/0.0.45/modules/discord_voice/discord_voice.node + 0x536e42)
+                                                #4  0x00007f9998d36192 n/a (/home/my-user/.config/discord/0.0.45/modules/discord_voice/discord_voice.node + 0x536192)
+                                                #5  0x00007f9998d371f2 n/a (/home/my-user/.config/discord/0.0.45/modules/discord_voice/discord_voice.node + 0x5371f2)
+                                                #6  0x00007f9998d2cd4b n/a (/home/my-user/.config/discord/0.0.45/modules/discord_voice/discord_voice.node + 0x52cd4b)
+                                                #7  0x00007f9998a01118 n/a (/home/my-user/.config/discord/0.0.45/modules/discord_voice/discord_voice.node + 0x201118)
+                                                ELF object binary architecture: AMD x86-64
+mei 05 16:33:40 my-system-name systemd[1]: systemd-coredump@1-299212-0.service: Deactivated successfully.
+mei 05 16:33:40 my-system-name systemd[1]: systemd-coredump@1-299212-0.service: Consumed 1.790s CPU time, no IP traffic.
+mei 05 16:33:42 my-system-name assert_20240505163342_7.dmp[301608]: Uploading dump (out-of-process)
+                                                           /tmp/dumps/assert_20240505163342_7.dmp
+mei 05 16:33:43 my-system-name assert_20240505163342_7.dmp[301608]: Finished uploading minidump (out-of-process): success = no
+mei 05 16:33:43 my-system-name assert_20240505163342_7.dmp[301608]: error: SSL peer certificate or SSH remote key was not OK
+mei 05 16:33:43 my-system-name assert_20240505163342_7.dmp[301608]: file ''/tmp/dumps/assert_20240505163342_7.dmp'', upload no: ''SSL peer certificate or SSH remote key was not OK''
+mei 05 16:35:46 my-system-name sudo[304904]:   my-user : a password is required ; TTY=pts/0 ; PWD=/home/my-user ; USER=root ; COMMAND=/run/current-system/sw/bin/true
+mei 05 16:38:41 my-system-name nix-daemon[2013]: accepted connection from pid 309285, user my-user (trusted)
+mei 05 16:38:41 my-system-name nix-daemon[2013]: accepted connection from pid 309291, user my-user (trusted)
+mei 05 16:42:49 my-system-name dbus-daemon[1060]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.28902' (uid=1000 pid=319208 comm="/nix/store/4di3q1lrcqdm4cf4480nr0km0bl9q4qy-firefo" label="kernel")
+mei 05 16:42:49 my-system-name systemd[1]: Starting Time & Date Service...
+mei 05 16:42:49 my-system-name systemd-timesyncd[1005]: Network configuration changed, trying to establish connection.
+mei 05 16:42:49 my-system-name systemd-timesyncd[1005]: Contacted time server 94.198.159.15:123 (0.nixos.pool.ntp.org).
+mei 05 16:42:49 my-system-name dbus-daemon[1060]: [system] Successfully activated service 'org.freedesktop.timedate1'
+mei 05 16:42:49 my-system-name systemd[1]: Started Time & Date Service.
+mei 05 16:42:49 my-system-name rtkit-daemon[1795]: Successfully made thread 319369 of process 319208 owned by '1000' RT at priority 10.
+mei 05 16:42:58 my-system-name pipewire[1788]: mod.x11-bell: X11 I/O error handler called on display :0
+mei 05 16:42:58 my-system-name pipewire[1788]: mod.x11-bell: X11 display (:0) has encountered a fatal I/O error
+mei 05 16:43:18 my-system-name rtkit-daemon[1795]: Successfully made thread 320402 of process 320287 owned by '1000' high priority at nice level -10.
+mei 05 16:43:18 my-system-name rtkit-daemon[1795]: Successfully made thread 320403 of process 320287 owned by '1000' high priority at nice level -10.
+mei 05 16:43:18 my-system-name rtkit-daemon[1795]: Successfully made thread 320416 of process 320287 owned by '1000' high priority at nice level -10.
+mei 05 16:43:19 my-system-name systemd[1]: systemd-timedated.service: Deactivated successfully.
+mei 05 16:43:24 my-system-name .waybar-wrapped[1779]: Status Notifier Item with bus name ':1.28853' and object path '/org/ayatana/NotificationItem/steam' is already registered
+mei 05 16:43:26 my-system-name pressure-vessel-wrap[320824]: x86_64-linux-gnu-capsule-capture-libs: warning: Dependencies of libnvidia-pkcs11.so.550.40.07 not found, ignoring: Missing dependencies: Could not find "libcrypto.so.1.1" in LD_LIBRARY_PATH "/lib64:/lib32:/steamrt/amd64/lib/x86_64-linux-gnu:/steamrt/amd64/lib:/steamrt/amd64/usr/lib/x86_64-linux-gnu:/steamrt/amd64/usr/lib:/steamrt/i386/lib/i386-linux-gnu:/steamrt/i386/lib:/steamrt/i386/usr/lib/i386-linux-gnu:/steamrt/i386/usr/lib:/run/opengl-driver/lib:/run/opengl-driver-32/lib", ld.so.cache, DT_RUNPATH or fallback /lib:/usr/lib
+mei 05 16:43:26 my-system-name pressure-vessel-wrap[320824]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+mei 05 16:43:26 my-system-name pressure-vessel-wrap[320824]: W: Found more than one possible libdrm data directory from provider
+mei 05 16:43:32 my-system-name pressure-vessel-wrap[321534]: x86_64-linux-gnu-capsule-capture-libs: warning: Dependencies of libnvidia-pkcs11.so.550.40.07 not found, ignoring: Missing dependencies: Could not find "libcrypto.so.1.1" in LD_LIBRARY_PATH "/lib64:/lib32:/steamrt/amd64/lib/x86_64-linux-gnu:/steamrt/amd64/lib:/steamrt/amd64/usr/lib/x86_64-linux-gnu:/steamrt/amd64/usr/lib:/steamrt/i386/lib/i386-linux-gnu:/steamrt/i386/lib:/steamrt/i386/usr/lib/i386-linux-gnu:/steamrt/i386/usr/lib:/run/opengl-driver/lib:/run/opengl-driver-32/lib", ld.so.cache, DT_RUNPATH or fallback /lib:/usr/lib
+mei 05 16:43:33 my-system-name pressure-vessel-wrap[321534]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+mei 05 16:43:33 my-system-name pressure-vessel-wrap[321534]: W: Found more than one possible libdrm data directory from provider
+mei 05 16:43:37 my-system-name .xdg-desktop-po[1841]: Backend call failed: Cannot invoke method; proxy is for the well-known name org.freedesktop.ScreenSaver without an owner, and proxy was constructed with the G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START flag
+mei 05 16:43:37 my-system-name rtkit-daemon[1795]: Successfully made thread 322513 of process 319513 owned by '1000' RT at priority 10.
+mei 05 16:43:39 my-system-name rtkit-daemon[1795]: Successfully made thread 322668 of process 319520 owned by '1000' RT at priority 10.
+mei 05 16:43:39 my-system-name .xdg-desktop-po[1841]: Backend call failed: Cannot invoke method; proxy is for the well-known name org.freedesktop.ScreenSaver without an owner, and proxy was constructed with the G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START flag
+mei 05 16:43:43 my-system-name nix-daemon[2013]: accepted connection from pid 322830, user my-user (trusted)
+mei 05 16:43:43 my-system-name nix-daemon[2013]: accepted connection from pid 322834, user my-user (trusted)
+mei 05 16:45:45 my-system-name assert_20240505164539_64.dmp[330539]: Uploading dump (out-of-process)
+                                                            /tmp/dumps/assert_20240505164539_64.dmp
+mei 05 16:45:45 my-system-name assert_20240505164539_64.dmp[330539]: Finished uploading minidump (out-of-process): success = no
+mei 05 16:45:45 my-system-name assert_20240505164539_64.dmp[330539]: error: SSL peer certificate or SSH remote key was not OK
+mei 05 16:45:45 my-system-name assert_20240505164539_64.dmp[330539]: file ''/tmp/dumps/assert_20240505164539_64.dmp'', upload no: ''SSL peer certificate or SSH remote key was not OK''
+mei 05 16:48:44 my-system-name nix-daemon[2013]: accepted connection from pid 335760, user my-user (trusted)
+mei 05 16:48:44 my-system-name nix-daemon[2013]: accepted connection from pid 335786, user my-user (trusted)
+mei 05 16:53:45 my-system-name nix-daemon[2013]: accepted connection from pid 347832, user my-user (trusted)
+mei 05 16:53:45 my-system-name nix-daemon[2013]: accepted connection from pid 347831, user my-user (trusted)
+mei 05 16:58:47 my-system-name nix-daemon[2013]: accepted connection from pid 358998, user my-user (trusted)
+mei 05 16:58:47 my-system-name nix-daemon[2013]: accepted connection from pid 358997, user my-user (trusted)
